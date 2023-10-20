@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+#funcionarios-menu {
+    padding: 10px;
+    background-color: #ccc;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#lancamento-menu {
+    padding: 10px;
+    background-color: #ccc;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#folha-menu {
+    padding: 10px;
+    background-color: #ccc;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cad-funcionarios {
+    margin-right: 15px;
+}
+input {
+    margin: 10px;
+}
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.box {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.cad-form {
+    display: flex;
+    padding: 10px;
+}

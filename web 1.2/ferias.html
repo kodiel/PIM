@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lançamento de Férias</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div id="lan-ferias">
+            <h1>Lançamento de Férias </h1>
+            <p>Data de Solicitação: <span id="data_soli">Aqui será exibida a data</span></p>
+            <label for="data_inicio">Inicio:</label>
+            <input type="date" id="data_inicio" name="data_inicio" required>
+            <label for="data_final">Final:</label>
+            <input type="date" id="data_final" name="data_final" required><br>
+            <input type="radio" id="licença" name="tipo-ferias" value="licença" required>
+            <label for="licença">Licença</label>
+            <input type="radio" id="ferias" name="tipo-ferias" value="ferias" required>
+            <label for="feminino">Férias</label><br>
+            <button type="submit">Adicionar</button>
+            <button onclick="voltarMenu()">Voltar</button>
+        </div>
+       <script src="script.js"></script>
+    </div>
+
+</body>
+</html>

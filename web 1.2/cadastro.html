@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Funcionário</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div id="cad-funcionarios">
+            <h1> Cadastro de Funcionários</h1>
+            <div class="cad-form">
+                <form id="crud-form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" required>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="Digite o CPF" required>
+                    <label for="data_admissao">Data de Admissão:</label>
+                    <input type="date" id="data_admissao" name="data_admissao" required>
+                    <label for="rg">RG:</label>
+                    <input type="text" id="rg" name="rg" placeholder="Digite o RG" required><br>
+                    <label for="carteira_trabalho">Carteira de Trabalho:</label>
+                    <input type="text" id="carteira_trabalho" name="carteira_trabalho" placeholder="Digite o número da Carteira de Trabalho" required>
+                    <label for="cargo">Cargo:</label>
+                    <input type="text" id="cargo" name="cargo" placeholder="Digite o cargo" required>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Digite o número de telefone" required>
+                    <label>Sexo:</label>
+                    <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="feminino" name="sexo" value="feminino" required>
+                    <label for="feminino">Feminino</label><br>
+                    <label for="salario">Salário:</label>
+                    <input type="text" id="salario" name="salario" placeholder="Digite o salário" required>
+                    <label for="horas_semanais">Horas Semanais:</label>              
+                    <input type="number" id="horas_semanais" name="horas_semanais" required>
+                    <label for="conta_banco">Número de Conta do Banco:</label>
+                    <input type="text" id="conta_banco" name="conta_banco" placeholder="Digite o número da conta do banco" required><br>
+                    <label for="agencia">Agência Bancária:</label>
+                    <input type="text" id="agencia" name="agencia" placeholder="Digite o número da agência" required>
+                    <label for="nome_banco">Nome do Banco:</label>
+                    <input type="text" id="nome_banco" name="nome_banco" placeholder="Digite o nome do banco" required>
+                </form>
+            </div>
+            <button type="submit">Adicionar</button>
+            <button onclick="voltarMenu()">Voltar</button>
+        </div>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+</html>
