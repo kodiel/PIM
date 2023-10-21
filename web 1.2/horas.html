@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lançamento de Horas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div id="lan-horas">
+            <h1>Lançamento de Horas</h1>
+            <p>Data de Solicitação: <span id="data_soli">Aqui será exibida a data</span></p>
+            <label for="hora_inicio">Hora de Início do Expediente:</label>
+            <input type="time" id="hora_inicio">
+            <label for="hora_fim">Hora de Término do Expediente:</label>
+            <input type="time" id="hora_fim"><br>
+            <p id="horas_trabalhadas">Quantidade de Horas: X</p>
+            <button type="button" onclick="calcularHorasTrabalhadas()">Adicionar</button>
+            <button onclick="voltarMenu()">Voltar</button>
+        </div>
+       <script src="script.js"></script>
+    </div>
+
+</body>
+</html>
